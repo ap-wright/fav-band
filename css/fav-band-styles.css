@@ -45,7 +45,7 @@ p {
   border: 2px;
   border-color: #7B68EE;
   padding: 4px;
-  background-color: #32CD32;
+  background-color: #FFA07A;
   border-style: solid;
   border-color: #7B68EE;
   border-width: thick;
@@ -91,4 +91,16 @@ img {
   padding: 12px;
   border-color: #B0C4DE;
   border-style: dashed;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: teal;
+  }
 }
