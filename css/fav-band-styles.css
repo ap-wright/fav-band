@@ -28,10 +28,12 @@ p {
   float: right;
   font-size: 1em;
   color: #FF7F50;
+  background-color: #DCDCDC;
 }
 
 .column {
-  width: 300px;
+  width: 30%;
+  float: left;
 }
 
 img {
